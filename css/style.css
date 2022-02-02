@@ -1,0 +1,35 @@
+header nav{
+    background-color: slategrey;
+}
+
+main{
+    min-height: 650px;
+
+}
+
+.bloc_liens
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a
+{
+    text-decoration: none!important;
+}
+
+.bloc_liens p:hover a, .liens:hover a
+{
+    color: white!important;
+}
+
+.lienprofil{
+    font-size: 1.4rem;
+}
+
+footer{
+    min-height: 225px;
+    background-color: salmon;
+}

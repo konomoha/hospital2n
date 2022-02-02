@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<!-- Je déclare dans ce fichier xml des balises personnalisées qui contiendront toutes les informations relatives à ma base de données. Ce fichier sera récupéré en php. -->
+
+<config>
+
+    <host>localhost</host>
+
+    <user>root</user>
+
+    <password></password>
+
+    <db>hospitale2n</db>
+
+    <table>patients</table>
+    <table>appointments</table>
+
+</config>
